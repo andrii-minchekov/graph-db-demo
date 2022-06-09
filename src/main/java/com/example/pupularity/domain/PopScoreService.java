@@ -1,6 +1,9 @@
 package com.example.pupularity.domain;
 
-public class PopularityScoreService {
+import org.springframework.stereotype.Component;
+
+@Component
+public class PopScoreService {
 
     public double popularityScore(EntertainmentNode entertainment) {
         return 1;
